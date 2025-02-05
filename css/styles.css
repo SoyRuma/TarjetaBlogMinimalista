@@ -1,0 +1,88 @@
+/* =========================
+   ESTILOS GENERALES
+   ========================= */
+
+/* Reset básico para limpiar márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuración del cuerpo de la página */
+body {
+    font-family: 'Sora', sans-serif;
+    color: #333; /* Color de texto predeterminado */
+    display: flex;
+    justify-content: center; /* Centra la tarjeta horizontalmente */
+    align-items: center; /* Centra la tarjeta verticalmente */
+    height: 100vh; /* Ocupa el 100% de la pantalla */
+    background-color: #f5f5f5;
+}
+
+/* =========================
+   TARJETA DE BLOG
+   ========================= */
+
+.blog-card {
+    width: 336px; /* Ancho fijo para la tarjeta */
+    background: white;
+    border-radius: 16px; /* Bordes redondeados */
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08); /* Sombra de caja */
+    padding: 16px; /* Espaciado interno */
+    text-align: left; /* Alinea el contenido a la izquierda */
+}
+
+/* Imagen dentro de la tarjeta */
+.blog-image {
+    width: 100%; /* Ocupará el 100% del contenedor */
+    height: 152px; /* Altura fija */
+    border-radius: 8px; /* Bordes redondeados */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+/* =========================
+   ESTILOS DEL CONTENIDO
+   ========================= */
+
+/* Etiqueta del blog */
+.tag {
+    display: inline-block;
+    font-size: 0.625rem; /* 10px */
+    font-weight: 600;
+    background: #F2EAFD; /* Color de fondo */
+    color: #7C19EE; /* Color del texto */
+    padding: 4px 8px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    margin: 16px 0;
+}
+
+/* Título del blog */
+.blog-title {
+    font-size: 1.125rem; /* 18px */
+    font-weight: 600; /* Negrita */
+    margin: 6px 0;
+    color: #20293A;
+}
+
+/* Descripción del blog */
+.blog-description {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 400;
+    color: #394150; /* Texto en color gris oscuro */
+    margin-bottom: 20px;
+}
+
+/* Separador de línea */
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #E0E0E0;
+    margin: 16px 0;
+  }
+
+/* Autor del blog */
+.author {
+    font-size: 12px;
+    color: #888; /* Texto en color gris claro */
+}
